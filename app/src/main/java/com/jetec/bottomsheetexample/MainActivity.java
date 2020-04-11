@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
-        View view = LayoutInflater.from(this).inflate(R.layout.botton_sheet,null);
+        View view = LayoutInflater.from(this).inflate(R.layout.bottom_sheet,null);
         Button btCancel = view.findViewById(R.id.button_cancel);
         Button bt01 = view.findViewById(R.id.button_01);
         Button bt02 = view.findViewById(R.id.button_02);
